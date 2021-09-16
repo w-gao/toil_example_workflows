@@ -1,0 +1,42 @@
+None/
+None/seq.bin
+None/complete_ref_lens.bin
+None/duplicate_clusters.tsv
+None/ctg_offsets.bin
+None/pos.bin
+None/ctable.bin
+None/reflengths.bin
+None/rank.bin
+None/refAccumLengths.bin
+None/refseq.bin
+None/versionInfo.json
+None/mphf.bin
+None/info.json
+None/ref_indexing.log
+None/pre_indexing.log
+quant/
+quant/libParams/
+quant/aux_info/
+quant/logs/
+quant/logs/salmon_quant.log
+Version Server Response: Not Found
+### salmon (selective-alignment-based) v1.5.2
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { index }
+### [ libType ] => { A }
+### [ mates1 ] => { /var/lib/toil/8412edf1871055a2b3ddc749f5bf331b/4c1f/045b/tmp1zlzw23n/reads_1.fq.gz }
+### [ mates2 ] => { /var/lib/toil/8412edf1871055a2b3ddc749f5bf331b/4c1f/045b/tmp1zlzw23n/reads_2.fq.gz }
+### [ validateMappings ] => { }
+### [ output ] => { quant }
+Logs will be written to quant/logs
+[2021-09-16 19:43:59.928] [jointLog] [info] setting maxHashResizeThreads to 2
+Exception : [Error: The index version file index/versionInfo.json doesn't seem to exist.  Please try re-building the salmon index.]
+salmon quant was invoked improperly.
+For usage information, try salmon quant --help
+Exiting.
+[2021-09-16 19:43:59.928] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-09-16 19:43:59.928] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-09-16 19:43:59.928] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-09-16 19:43:59.928] [jointLog] [info] parsing read library format
+[2021-09-16 19:43:59.928] [jointLog] [info] There is 1 library.

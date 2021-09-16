@@ -1,0 +1,9 @@
+{
+    "salmon_version": "1.5.2",
+    "index": "/var/lib/cwl/stg35093575-98ed-4a53-8d38-6c868fba12e4/salmon_index",
+    "libType": "A",
+    "mates1": "/var/lib/cwl/stgbff692ec-5326-414a-ba82-77aae55bc45b/reads_1.fq.gz",
+    "mates2": "/var/lib/cwl/stg1dbd1f6c-4cf1-45af-97a6-d243aaab05b4/reads_2.fq.gz",
+    "output": "quant",
+    "auxDir": "aux_info"
+}
